@@ -1,4 +1,5 @@
 # Cybersecurity Quiz
+This website is a project for Cybersecurity developed by Ryan Zheng, Logan Gable, Hannah Cha, Aathma Muruganathan, and Dash Narayanan.
 ## Sprint Tasks
 | Group member | Tasks | 
 | ------ | ------ |  
