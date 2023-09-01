@@ -36,6 +36,30 @@ footer p{
     color: rgb(102, 107, 122);
 }
 
+.sitebanner {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    margin-bottom: 2%;
+}
+.question {
+    background-color: rgb(221, 225, 241);
+    padding: 2%;
+    margin:2%;
+    border-radius: 25px;
+}
+
+.question *{
+    background-color: rgb(221, 225, 241);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.question a{
+    text-decoration: underline;
+}
+
 footer {
     position: fixed;
     left: 0;
