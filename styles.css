@@ -4,7 +4,7 @@
 }
 
 .content {
-    margin-top:75px;
+    margin-top: 75px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -19,22 +19,22 @@
 header {
     font-size: larger;
     position: fixed;
-    top:0;
-    width:100%;
-    padding-top:1%;
-    padding-bottom:1%;
-    height:30px;
+    top: 0;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 30px;
     border-bottom: 1px solid rgb(102, 107, 122);
 }
 
-header a{
+header a {
     margin-left: 2%;
     background-color: rgb(180, 194, 233);
     text-decoration: none;
     color: black;
 }
 
-header a:hover{
+header a:hover {
     background-color: rgb(180, 194, 233);
 }
 
@@ -47,8 +47,9 @@ footer {
     border-top: 0.5px solid rgb(102, 107, 122);
 }
 
-footer p, footer a{
-    display:inline;
+footer p,
+footer a {
+    display: inline;
     color: rgb(60, 61, 63);
 }
 
@@ -56,23 +57,25 @@ footer p, footer a{
     margin: 1%;
 }
 
-.nobreaks p, .nobreaks b, .nobreaks a{
-    display:inline;
+.nobreaks p,
+.nobreaks b,
+.nobreaks a {
+    display: inline;
 }
 
 .question {
     background-color: rgb(221, 225, 241);
     padding: 2%;
-    margin:2%;
+    margin: 2%;
     border-radius: 15px;
 }
 
-.question *{
+.question * {
     background-color: rgb(221, 225, 241);
     font-family: 'Courier New', Courier, monospace;
 }
 
-.question a{
+.question a {
     text-decoration: underline;
 }
 
