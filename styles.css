@@ -56,6 +56,10 @@ footer p, footer a{
     margin: 1%;
 }
 
+.nobreaks p, .nobreaks b, .nobreaks a{
+    display:inline;
+}
+
 .question {
     background-color: rgb(221, 225, 241);
     padding: 2%;
