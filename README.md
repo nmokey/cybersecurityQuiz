@@ -22,5 +22,5 @@ This project is hosted on Cloudflare Pages. [Check it out!](https://cybersecurit
 ## Question Topics:
 - [ ] Password security
 - [ ] Phishing (vishing, smishing, spearfishing)
-- [ ] Spam emails
+- [X] Spam emails
 - [ ] Clickbait content
