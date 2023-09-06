@@ -97,7 +97,24 @@ img {
     display: inline-block;
     padding: 8px 16px;
 }
+.right {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(25,200,25);
+  border-radius= 15px;
+    display: inline-block;
+    padding: 8px 16px;
 
+}
+.wrong {
+    text-decoration: none;
+  color: black;
+  background-color: rgb(200,25,50);
+  border-radius= 15px;
+    display: inline-block;
+    padding: 8px 16px;
+
+}
 .button:hover {
     background-color: #8da0d2;
     border-radius: 20px;
