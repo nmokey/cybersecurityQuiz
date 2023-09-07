@@ -17,13 +17,6 @@
     margin-bottom: 75px;
 }
 
-.answer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 20px;
-}
 header {
     display: grid;
     font-size: larger;
@@ -95,6 +88,15 @@ footer a {
 
 .question a {
     text-decoration: underline;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 img {
