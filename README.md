@@ -4,7 +4,7 @@
 ![this is so cybersecurity](https://img.shields.io/badge/this%20is%20so-cybersecurity-blue)
 
 # Cybersecurity Quiz
-This website is a project for Mr. Kiyoi's Cybersecurity class,  developed by Ryan Zheng, Logan Gable, Hannah Cha, Aathma Muruganathan, and Dash Narayanan. We hope this project will be useful for future students looking to create something similar.
+This website is a project for Mr. Kiyoi's Cybersecurity class,  developed by Ryan Zheng, Logan Gable, Hannah Cha, Aathma Muruganathan, and Dash Narayanan.
 
 This project is hosted with Cloudflare Pages. [Check it out!](https://cybersecurity-quiz.pages.dev/)
 
