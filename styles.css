@@ -18,6 +18,7 @@
 }
 
 header {
+    display: grid;
     font-size: larger;
     position: fixed;
     top: 0;
@@ -37,6 +38,15 @@ header a {
 
 header a:hover {
     background-color: rgb(180, 194, 233);
+}
+
+.score {
+    font-size: medium;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    text-align: right;
+    white-space: nowrap;
 }
 
 footer {
