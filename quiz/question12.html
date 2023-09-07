@@ -16,7 +16,8 @@
   <header>
     <a href="../index.html">Cybersecurity Quiz</a>
     <div class="score">
-      <a>Score: <a id="score">-</a>
+      <a>Score:</a>
+      <a id="score"></a>
     </div>
   </header>
 
@@ -34,7 +35,7 @@
       <a href="#" class="wrong button" onclick="addScore()">Unsafe</a>
     </article>
     <div class="navigation">
-      <a href="question10.html" class="previous button">&laquo; Previous</a>
+      <a href="question11.html" class="previous button">&laquo; Previous</a>
       <a href="question13.html" class="next button">Next &raquo;</a>
     </div>
   </main>
@@ -47,5 +48,7 @@
     </div>
   </footer>
 </body>
+
+<script>document.getElementById("score").innerHTML = sessionStorage.score;</script>
 
 </html>

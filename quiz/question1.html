@@ -13,10 +13,12 @@
 
 <body>
     <script src="../script.js"></script>
+
     <header>
         <a href="../index.html">Cybersecurity Quiz</a>
         <div class="score">
-            <a>Score: <a id="score">-</a>
+            <a>Score:</a>
+            <a id="score"></a>
         </div>
     </header>
 
@@ -34,7 +36,7 @@
             </div>
 
             <article class="answer">
-                <a href="#" class="right button" >Safe</a>
+                <a href="#" class="right button">Safe</a>
                 <a href="#" class="wrong button" onclick="addScore()">Unsafe</a>
             </article>
         </div>
@@ -53,5 +55,7 @@
         </div>
     </footer>
 </body>
+
+<script>document.getElementById("score").innerHTML = sessionStorage.score;</script>
 
 </html>

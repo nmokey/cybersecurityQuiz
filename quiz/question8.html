@@ -16,7 +16,8 @@
   <header>
     <a href="../index.html">Cybersecurity Quiz</a>
     <div class="score">
-      <a>Score: <a id="score">-</a>
+      <a>Score:</a>
+      <a id="score"></a>
     </div>
   </header>
 
@@ -50,5 +51,7 @@
     </div>
   </footer>
 </body>
+
+<script>document.getElementById("score").innerHTML = sessionStorage.score;</script>
 
 </html>

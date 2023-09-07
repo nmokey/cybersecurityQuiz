@@ -8,3 +8,7 @@ function addScore() {
 function getScore() {
     return score;
 }
+
+function displayScore() {
+    alert("Your score is: " + sessionStorage.score + "/20!");
+}
