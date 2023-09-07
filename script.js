@@ -1,8 +1,8 @@
-document.getElementById("score").innerHTML = score;
+//document.getElementById("score").innerHTML = sessionStorage.score;
 
 function addScore() {
-    score++;
-    document.getElementById("score").innerHTML = score;
+        sessionStorage.score = Number(sessionStorage.score) + 1;
+    document.getElementById("score").innerHTML = sessionStorage.score;
 }
 
 function getScore() {
