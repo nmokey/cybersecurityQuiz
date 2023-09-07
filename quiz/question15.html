@@ -12,30 +12,30 @@
 </head>
 
 <body>
-  <!-- <script src="script.js"></script> -->
+  <script src="../script.js"></script>
   <header>
-    <a href="../index.html">cyberseuciryt!</a>
+    <a href="../index.html">Cybersecurity Quiz</a>
+    <div class="score">
+      <a>Score: <a id="score">-</a>
+    </div>
   </header>
 
   <main>
     <div class="content">
-            <h1>Question 15</h1>
-    <h2>Claim Reward</h2>
+      <h1>Question 15</h1>
+      <h2>Claim Reward</h2>
       <p>noreply@coolmathgames.com</p>
-      
-     <h3>Earn 1000k through a great math site!</h3>
-      
-      <a href = "coolmathgames.com/purchase" class = "button">Claim Reward</a>
-      
-      
+
+      <h3>Earn 1000k through a great math site!</h3>
+
+      <a href="coolmathgames.com/purchase" class="button">Claim Reward</a>
+
+
     </div>
-      #add individual right and wrong alert feedbacks
-        <div class = "answer">
-          <a href="#" class = "right button"> Safe &raquo;
-          </a>
-          <a href = "#" class = "wrong button">Unsafe &raquo;
-          </a>
-        </div>
+    <article class="answer">
+      <a href="#" class="right button">Safe</a>
+      <a href="#" class="wrong button" onclick="addScore()">Unsafe</a>
+    </article>
 
     <div class="navigation">
       <a href="question14.html" class="previous button">&laquo; Previous</a>
@@ -44,7 +44,11 @@
   </main>
 
   <footer>
-    <p>Footer placeholder content</p>
+    <div class="footertext">
+      <p>This site is a project for Cybersecurity developed by Ryan, Logan, Dash, Aathma, and Hannah.</p>
+      <p>Check out the</p>
+      <a href="https://github.com/nmokey/cybersecurityQuiz" target="_blank" rel="noopener noreferrer">repository!</a>
+    </div>
   </footer>
 </body>
 
