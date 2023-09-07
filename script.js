@@ -1,11 +1,10 @@
-alert("Your connection is not private. Attackers may be trying to steal your data from ___.com (for example, passwords, messages, or credit cards. Learn more");
+document.getElementById("score").innerHTML = score;
 
-var score;
-
-function addScore(){
+function addScore() {
     score++;
+    document.getElementById("score").innerHTML = score;
 }
 
-function getScore(){
+function getScore() {
     return score;
 }
