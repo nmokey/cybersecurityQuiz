@@ -23,7 +23,7 @@ This project is hosted with Cloudflare Pages. [Check it out!](https://cybersecur
 | Hannah | Create and implement question pages |
 
 ## Question Topics
-- [ ] Password security
-- [ ] Phishing (vishing, smishing, spearfishing)
+- [X] Password security
+- [X] Phishing (vishing, smishing, spearfishing)
 - [X] Spam emails
-- [ ] Clickbait content
+- [X] Clickbait content
