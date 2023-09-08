@@ -27,3 +27,9 @@ This project is hosted with Cloudflare Pages. [Check it out!](https://cybersecur
 - [X] Phishing (vishing, smishing, spearfishing)
 - [X] Spam emails
 - [X] Clickbait content
+
+## To do
+- Write introduction and instructions/tips on homepage
+- Proofread questions for typos and errors
+- Format all email questions consistently
+- Shuffle questions around
