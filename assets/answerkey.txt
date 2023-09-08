@@ -1,0 +1,22 @@
+This file is just for reference. "?" denotes ambiguous/confusing question.
+====================
+1. Unsafe
+2. N/A?
+3. Unsafe
+4. Safe
+5. Unsafe
+6. C 
+7. B 
+8. B
+9. Unsafe
+10. Unsafe
+11. Unsafe?
+12. Unsafe 
+13. Unsafe 
+14. Safe?
+15. Unsafe
+16. Unsafe 
+17. Unsafe 
+18. Safe?
+19. Safe?
+20. Safe?
