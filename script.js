@@ -1,4 +1,3 @@
-//document.getElementById("score").innerHTML = sessionStorage.score;
 
 function addScore() {
     sessionStorage.score = Number(sessionStorage.score) + 1;
