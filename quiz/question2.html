@@ -27,21 +27,20 @@
             <h1>Question 2</h1>
 
             <div class="question">
-                <h2>Sample Social Media Profile</h1>
-                    <h3>Derek Blake</h3>
-                    <p>db@gamil.com</p>
-                    <p>Username dblake</p>
-                    <p>Password d3rekKn!ght</p>
-                    <h3>Is Derek's profile safe? - for example, is his password safe, is it safe that his email is public on his profile...-</h3>
+
+                <img src="images/image2.png" >
+                <p style="text-align:center">Does Derek Blake have a safe Twitter profile??</p>
+
             </div>
+
             <article class="answer">
-                <a class="right button" data-explanation = "Check Derek's Email account. You try to avoid personal hints in passwords, especially your name. >Safe</a>
-                <a class="wrong button" onclick="addScore()" data-explanation = "Good job! He misspelled his email. Using your name in your username or password makes your information more sensitive to hackers.">Unsafe</a>
+                <a class="right button" data-explanation="Check Derek's Email account. Remember you should avoid putting personal information on a public profile (such as email, usernames, and passwords)." onclick="showExplanation(this)">Safe</a>
+                <a class="wrong button" data-explanation="Good job! Note how Derek has his email, Tiwtter username, and Twitter password all on his public profile. Since anyone can access this information, people may send him unwanted emails or log into his Twitter account for bad purposes." onclick="showExplanation(this); addScore();">Unsafe</a>
             </article>
-        </div>
+            <div id="explanation" class="explanation-box" style="display: none;"></div>
 
         <div class="navigation">
-            <a href="question1.html" class="previous button" >&laquo; Previous</a>
+            <a href="question1.html" class="previous button">&laquo; Previous</a>
             <a href="question3.html" class="next button">Next &raquo;</a>
         </div>
     </main>
