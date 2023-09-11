@@ -34,8 +34,8 @@
             </div>
 
             <article class="answer">
-                <a class="right button" data-explanation = "Check Derek's Email account. You try to avoid personal hints in passwords, especially your name.">Safe</a>
-                <a class="wrong button" onclick="addScore()" data-explanation = "Good job! He misspelled his email. Using your name in your username or password makes your information more sensitive to hackers.">Unsafe</a>
+                <a class="right button" data-explanation="Check Derek's Email account. Remember you should avoid putting personal information on a public profile (such as email, usernames, and passwords)." onclick="showExplanation(this); ">Safe</a>
+                <a class="wrong button" data-explanation="Good job! Note how Derek has his email, Tiwtter username, and Twitter password all on his public profile. Since anyone can access this information, people may send him unwanted emails or log into his Twitter account for bad purposes." onclick="showExplanation(this); addScore();">Unsafe</a>
             </article>
             <div id="explanation" class="explanation-box" style="display: none;"></div>
 
