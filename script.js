@@ -3,6 +3,16 @@ function addScore() {
     document.getElementById("score").innerHTML = sessionStorage.score;
 }
 
+function showExplanation(button) {
+    const explanationBox = document.getElementById('explanation');
+    const explanation = button.getAttribute('data-explanation');
+
+    explanationBox.innerHTML = explanation;
+    explanationBox.style.display = 'block';
+}
+
+
+
 function getScore() {
     return score;
 }
