@@ -23,25 +23,24 @@
     </header>
 
     <main>
-
-
         <div class="content">
             <h1>Question 1</h1>
 
             <div class="question">
-
-                <img src="images/image1.png" >
-                <p style="text-align:center">Does this email/link look safe to click on?</p>
-
+                <img src="images/image1.png">
+                <p style="text-align:center; margin-bottom: 0;">Does this email/link look safe to click on?</p>
             </div>
 
             <article class="answer">
-                <a class="right button" data-explanation="Not quite! Look closely at the sender's email address." onclick="showExplanation(this)">Safe</a>
-                <a class="wrong button" data-explanation="Correct! This email/link looks unsafe because it comes from a suspicious email address, and the content has signs of clickbait (they are giving you an offer that seems too good to be true, adnd they are pressuing you to take it before time runs out)." onclick="showExplanation(this); addScore();">Unsafe</a>
+                <a class="right button" data-explanation="Not quite! Look closely at the sender's email address."
+                    onclick="showExplanation(this)">Safe</a>
+                <a class="wrong button"
+                    data-explanation="Correct! This email/link looks unsafe because it comes from a suspicious email address, and the content has signs of clickbait (they are giving you an offer that seems too good to be true, adnd they are pressuing you to take it before time runs out)."
+                    onclick="showExplanation(this); addScore();">Unsafe</a>
             </article>
             <div id="explanation" class="explanation-box" style="display: none;"></div>
-            
-            
+
+
         </div>
 
         <div class="navigation">

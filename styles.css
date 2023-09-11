@@ -159,9 +159,13 @@ img {
 .explanation-box {
     background-color: #fff;
     border: 1px solid #ccc;
+    margin: auto;
+    font-size: smaller;
     padding: 10px;
+    width: 75%;
     margin-top: 10px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     display: none; /* Initially hidden */
 }
