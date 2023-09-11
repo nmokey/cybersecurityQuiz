@@ -33,3 +33,9 @@ This project is hosted with Cloudflare Pages. [Check it out!](https://cybersecur
 - Proofread questions for typos and errors
 - Format all email questions consistently
 - Shuffle questions around
+
+## Question refining:
+- 1-5 Aathma
+- 6-10 Ryan
+- 11-15 Hannah
+- 16-20 Dash
