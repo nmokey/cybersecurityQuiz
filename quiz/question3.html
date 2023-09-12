@@ -34,20 +34,18 @@
       <h1>Question 3</h1>
 
       <div class="question">
-        <h2>Danny Wood from X!</h2>
-        <p>dannyw@hotmail.com</p>
-        <h2>Confirm your personal information to add X handle for branden-ostlund@otlook.com</h2>
 
-        <img src="../assets/images/twitter.jpeg" alt="cybersecurity banner" title="this is so cybersecurity">
+          <img src="..assets/images/image3.png" >
+          <p style="text-align:center">Does this email look legitimate?</p>
 
-        <a href="http://twitter.com/i/flow"> Login </a>
       </div>
 
-      <article class="answer">
-        <a class="right button">Safe</a>
-        <a class="wrong button" onclick="addScore()">Unsafe</a>
-      </article>
-    </div>
+
+    <article class="answer">
+      <a class="right button" data-explanation="Correct! Note that the blue checkmark next to the sender (Amazon) means the email addresses is verified and trusted." onclick="showExplanation(this); addScore();">Safe</a>
+      <a class="wrong button" data-explanation="Not quite! Note that the email address is from @amazon.com, and there is a blue checkmark (meaning the sender if verified and legitamate)." onclick="showExplanation(this)">Unsafe</a>
+  </article>
+  <div id="explanation" class="explanation-box" style="display: none;"></div>
 
     <div class="navigation">
       <a href="question2.html" class="previous button">&laquo; Previous</a>
