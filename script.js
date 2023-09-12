@@ -11,8 +11,6 @@ function showExplanation(button) {
     explanationBox.style.display = 'block';
 }
 
-
-
 function getScore() {
     return score;
 }
