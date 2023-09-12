@@ -11,6 +11,15 @@
     <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
 </head>
 
+<style>
+    img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
 <body>
     <script src="../script.js"></script>
 
@@ -29,20 +38,24 @@
             <div class="question">
 
                 <img src="../assets/images/image2.png">
-                <p style="text-align:center">Does Derek Blake have a safe Twitter profile??</p>
+                <p style="text-align:center; margin-bottom: 0;">Does Derek Blake have a safe Twitter profile??</p>
 
             </div>
 
             <article class="answer">
-                <a class="right button" data-explanation="Check Derek's Email account. Remember you should avoid putting personal information on a public profile (such as email, usernames, and passwords)." onclick="showExplanation(this); ">Safe</a>
-                <a class="wrong button" data-explanation="Good job! Note how Derek has his email, Tiwtter username, and Twitter password all on his public profile. Since anyone can access this information, people may send him unwanted emails or log into his Twitter account for bad purposes." onclick="showExplanation(this); addScore();">Unsafe</a>
+                <a class="right button"
+                    data-explanation="Check Derek's Email account. Remember you should avoid putting personal information on a public profile (such as email, usernames, and passwords)."
+                    onclick="showExplanation(this); ">Safe</a>
+                <a class="wrong button"
+                    data-explanation="Good job! Note how Derek has his email, Tiwtter username, and Twitter password all on his public profile. Since anyone can access this information, people may send him unwanted emails or log into his Twitter account for bad purposes."
+                    onclick="showExplanation(this); addScore();">Unsafe</a>
             </article>
             <div id="explanation" class="explanation-box" style="display: none;"></div>
 
-        <div class="navigation">
-            <a href="question1.html" class="previous button">&laquo; Previous</a>
-            <a href="question3.html" class="next button">Next &raquo;</a>
-        </div>
+            <div class="navigation">
+                <a href="question1.html" class="previous button">&laquo; Previous</a>
+                <a href="question3.html" class="next button">Next &raquo;</a>
+            </div>
     </main>
 
     <footer>
