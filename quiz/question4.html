@@ -26,18 +26,16 @@
       <h1>Question 4</h1>
 
       <div class="question">
-        <h2>Amazon delivery</h2>
-        <p>noreply@amazon.com</p>
-        <h2>Your package has been delivered!</h2>
-        <p>Destiny: the Taken King</p>
-        <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart"> View purchase </a>
-      </div>
 
+          <img src="../assets/images/image4.png" >
+          <p style="text-align:center">Justin just recived this text from an unknown number. Should he clck the link?</p>
+
+      </div>
       <article class="answer">
-        <a class="right button" onclick="addScore()">Safe</a>
-        <a class="wrong button">Unsafe</a>
-      </article>
-    </div>
+        <a class="right button" data-explanation="Think again! This message is coming from an unknown number, and it's trying to get you to click on a link for an unknown product. You shouldn't trust these kind of messages, especially if you don't know who is sending them." onclick="showExplanation(this);">Safe</a>
+        <a class="wrong button" data-explanation="Correct! You shouldn't click the link because it's from an unkown sender who you can't trust. Clicking on the link might install a virus on your phone, or might allow the sender to access your private information." onclick="showExplanation(this); addScore();">Unsafe</a>
+    </article>
+    <div id="explanation" class="explanation-box" style="display: none;"></div>
 
     <div class="navigation">
       <a href="question3.html" class="previous button">&laquo; Previous</a>
