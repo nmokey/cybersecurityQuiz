@@ -36,10 +36,16 @@
         <p>You have recieved this chain message. You are unsure if you should follow it's directions. Is it safe to send or not?</p>
       </div>
     </div>
+    
+
     <article class="answer">
-      <a class="right button">Safe</a>
-      <a class="wrong button" onclick="addScore()">Unsafe</a>
+      <a class="right button" data-explanation="Guess again. Is it safe to send this to others? Are you contributing to spam."
+        onclick="showExplanation(this)">Safe</a>
+      <a class="wrong button" data-explanation="Yes! This is a chain email."
+        onclick="showExplanation(this);addScore();">Unsafe</a>
     </article>
+    <div id="explanation" class="explanation-box" style="display: none;"></div>
+  </div>
 
     <div class="navigation">
       <a href="question12.html" class="previous button">&laquo; Previous</a>
