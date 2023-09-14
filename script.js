@@ -22,8 +22,8 @@ function displayScore() {
     else if (sessionStorage.score <= 15) {
         alert("Your score is: " + sessionStorage.score + "/20!\nYou are kinda cybersecure!");
     }
-    else if (sessionStorage.score <= 19) {
-        alert("Your score is: " + sessionStorage.score + "/20!\nGreat job!");
+    else if (sessionStorage.score <= 20) {
+        alert("Your score is: " + sessionStorage.score + "/20!\nGreat job! You are very cybersecure!");
     }
     else {
         alert("Your score is: " + sessionStorage.score + "/20!\ncheater");

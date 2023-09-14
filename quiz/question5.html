@@ -26,20 +26,16 @@
       <h1>Question 5</h1>
 
       <div class="question">
-        <h2>Join the Yahoo AI Search Lab</h2>
-        <p>noreply@yahoo.com</p>
-        <p>Greg, I have been seeing that you have been searching about video Games. Would you mind if we suggested
-          articles and websites based on your common searches? We will compare your searches to other users' searches
-          and suggest common items when you log into your account. Use your Yahoo account to register to the AI Search
-          Lab </p>
-        <a href="login.yahoo.com"> Join us! </a>
-      </div>
 
+          <img src="../assets/images/image5.png" >
+          <p style="text-align:center; margin-bottom: 0;">Is this email genuine? Or is it from a spam sender?</p>
+
+      </div>
       <article class="answer">
-        <a class="right button">Safe</a>
-        <a class="wrong button" onclick="addScore()">Unsafe</a>
-      </article>
-    </div>
+        <a class="right button" data-explanation="Correct! Note that the emil address is from 'pleasantonusd.net,' which is an official school district email. Also, the email seems reasonable to be coming from a school administrator. (If you look up 'Melanie Harris PUSD, you'll learn that she's a Vice Principal!).'" onclick="showExplanation(this);addScore();">Safe</a>
+        <a class="wrong button" data-explanation="Not quite! Look at the email address that's mentioned. Does it look legitimate?" onclick="showExplanation(this)">Unsafe</a>
+    </article>
+    <div id="explanation" class="explanation-box" style="display: none;"></div>
 
     <div class="navigation">
       <a href="question4.html" class="previous button">&laquo; Previous</a>
@@ -55,7 +51,6 @@
     </div>
   </footer>
 </body>
-
 <script>document.getElementById("score").innerHTML = sessionStorage.score;</script>
 
 </html>

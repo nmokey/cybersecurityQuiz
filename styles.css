@@ -123,21 +123,19 @@ img {
 .right {
     text-decoration: none;
     color: black;
-    background-color: rgb(25, 200, 25);
-    border-radius: 15px;
+    background-color: rgb(102, 199, 102);
+    border-radius: 20px;
     display: inline-block;
     padding: 8px 16px;
-
 }
 
 .wrong {
     text-decoration: none;
     color: black;
-    background-color: rgb(200, 25, 50);
-    border-radius: 15px;
+    background-color: rgb(228, 55, 81);
+    border-radius: 20px;
     display: inline-block;
     padding: 8px 16px;
-
 }
 
 .button:hover {
@@ -165,5 +163,5 @@ img {
     margin: auto;
     margin-bottom: 20px;
     border-radius: 10px;
-    display: none; /* Initially hidden */
+    display: none;
 }

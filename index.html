@@ -11,6 +11,18 @@
     <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
 </head>
 
+<style>
+    .button {
+        margin: auto;
+        left: 50%;
+        transform: translate(-50%, 0);
+        position: absolute;
+        font-size: larger;
+        background-color: rgb(150, 172, 228);
+        /* box-shadow: 5px 5px 2px rgb(114, 124, 151); */
+    }
+</style>
+
 <body>
     <script>sessionStorage.score = 0;</script> <!--resets the score when returning to home page -->
     <header>
@@ -22,7 +34,6 @@
             <div class="banner">
                 <img src="assets/images/homebanner.png" alt="cybersecurity banner" title="this is so cybersecurity">
             </div>
-            <a id="score"></a>
             <a href="quiz/question1.html" class="button">Take the quiz!</a>
         </div>
     </main>
