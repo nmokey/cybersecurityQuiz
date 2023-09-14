@@ -32,8 +32,15 @@
     </div>
 
     <div class="answer">
-      <a class="right button">Safe</a>
-      <a class="wrong button" onclick="addScore()">Unsafe</a>
+          <a class = "right button" 
+            data-explanation="Not really. Look at the spelling.  This is not what even an entertainment company like Roblox would message you." 
+            onClick= showExplanation(this); > Safe &raquo;
+          </a>
+          <a  class = "wrong button"
+            data-explanation = "Way to go! The website is not secure, and this email does not sound professional with the spelling and punctuation." 
+            onClick= showExplanation(this);
+            onClick = addScore();
+>Unsafe &raquo;
     </div>
 
     <div class="navigation">
