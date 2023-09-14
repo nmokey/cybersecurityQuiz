@@ -28,13 +28,19 @@
       <div class="question">
         <h2>Should you respond with your password?</h2>
         <p>Hi Ben!</p>
-        <p>It' s your teacher, email me with your password for a longer recess.</p>
+        <p>It's your teacher, email me with your password for a longer recess.</p>
       </div>
     </div>
-    <article class="answer">
-      <a class="right button">Yes</a>
-      <a class="wrong button" onclick="addScore()">No</a>
-    </article>
+        <div class = "answer">
+          <a  class = "right button" data-explanation="Not quite. Emailing your password for an incentive like recess violates privacy." 
+            onClick= showExplanation(this)> Yes &raquo;
+          </a>
+          <a  class = "wrong button"
+            data-explanation="Super! Your teacher usually may not give you more recess. This is not a reason they may ask for you password." 
+            onclick= showExplanation(this);
+            onClick = addScore();>No &raquo;
+          </a>
+        </div>
 
     <div class="navigation">
       <a href="question9.html" class="previous button">&laquo; Previous</a>
