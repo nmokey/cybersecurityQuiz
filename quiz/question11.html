@@ -38,10 +38,15 @@
       </div>
 
     </div>
+
     <article class="answer">
-      <a class="right button" data-explanation="Nope! Look closely at the email. Does it look trustworhy, or does it seem like some outsider is trying to obtain your information?'" onclick="showExplanation(this);">Safe</a>
-      <a class="wrong button" data-explanation="Correct! Note that the email seems very suspicious. It is highly unlikely that someone's email is 'johnambrosebestfriend'. It seems that the sender is just trying to get you to give your personal information (in this case, address)." onclick="showExplanation(this); addScore();">Unsafe</a>
-  </article>
+                <a class="right button"
+                    data-explanation="Nope! Look closely at the email. Does it look trustworhy, or does it seem like some outsider is trying to obtain your information?"
+                    onclick="showExplanation(this); ">Safe</a>
+                <a class="wrong button"
+                    data-explanation="Correct! Note that the email seems very suspicious. It is highly unlikely that someone's email is 'johnambrosebestfriend'. It seems that the sender is just trying to get you to give your personal information (in this case, address)."
+                    onclick="showExplanation(this); addScore();">Unsafe</a>
+            </article>
 
 
     <div class="navigation">
