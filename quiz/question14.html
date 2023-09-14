@@ -38,10 +38,15 @@
         </div>
       </div>
     </div>
+   
     <article class="answer">
-      <a class="right button">Safe</a>
-      <a class="wrong button"onclick="addScore()" >Unsafe</a>
+      <a class="right button" data-explanation="No! Check the email, is it valid? Should you give out your birthday without knowing who. "
+        onclick="showExplanation(this)">Safe</a>
+      <a class="wrong button" data-explanation="Yes! This is a fake email."
+        onclick="showExplanation(this);addScore();">Unsafe</a>
     </article>
+    <div id="explanation" class="explanation-box" style="display: none;"></div>
+  </div>
 
     <div class="navigation">
       <a href="question13.html" class="previous button">&laquo; Previous</a>
