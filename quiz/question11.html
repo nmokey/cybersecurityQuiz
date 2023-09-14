@@ -2,66 +2,70 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Cybersecurity Quiz</title>
-  <link rel="stylesheet" type="text/css" href="../styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
-  <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cybersecurity Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
 </head>
 
-
 <style>
-  img {
-    width: 50%;
-  }
+    img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
 
 <body>
-  <script src="../script.js"></script>
-  <header>
-    <a href="../index.html">Cybersecurity Quiz</a>
-    <div class="score">
-      <a>Score:</a>
-      <a id="score"></a>
-    </div>
-  </header>
+    <script src="../script.js"></script>
 
-  <main>
-    <div class="content">
-      <h1>Question 11</h1>
-      
-      <div class="question">
-        <img src="../assets/images/image11.png" >
-        <p>Should you interact with this message?</p>
-      </div>
+    <header>
+        <a href="../index.html">Cybersecurity Quiz</a>
+        <div class="score">
+            <a>Score:</a>
+            <a id="score"></a>
+        </div>
+    </header>
 
-    </div>
+    <main>
+        <div class="content">
+            <h1>Question 11</h1>
 
-    <article class="answer">
+            <div class="question">
+
+                <img src="../assets/images/image11.png">
+                <p style="text-align:center; margin-bottom: 0;">Does Derek Blake have a safe Twitter profile??</p>
+
+            </div>
+
+            <article class="answer">
                 <a class="right button"
-                    data-explanation="Nope! Look closely at the email. Does it look trustworhy, or does it seem like some outsider is trying to obtain your information?"
+                    data-explanation= "Nope! Look closely at the email. Does it look trustworhy, or does it seem like some outsider is trying to obtain your information?"
                     onclick="showExplanation(this); ">Safe</a>
                 <a class="wrong button"
                     data-explanation="Correct! Note that the email seems very suspicious. It is highly unlikely that someone's email is 'johnambrosebestfriend'. It seems that the sender is just trying to get you to give your personal information (in this case, address)."
                     onclick="showExplanation(this); addScore();">Unsafe</a>
             </article>
+            <div id="explanation" class="explanation-box" style="display: none;"></div>
 
+            <div class="navigation">
+                <a href="question1.html" class="previous button">&laquo; Previous</a>
+                <a href="question3.html" class="next button">Next &raquo;</a>
+            </div>
+    </main>
 
-    <div class="navigation">
-      <a href="question10.html" class="previous button">&laquo; Previous</a>
-      <a href="question12.html" class="next button">Next &raquo;</a>
-    </div>
-  </main>
-
-  <footer>
-    <div class="footertext">
-      <p>This site is a project for Cybersecurity developed by Ryan, Logan, Dash, Aathma, and Hannah.</p>
-      <p>Check out the</p>
-      <a href="https://github.com/nmokey/cybersecurityQuiz" target="_blank" rel="noopener noreferrer">repository!</a>
-    </div>
-  </footer>
+    <footer>
+        <div class="footertext">
+            <p>This site is a project for Cybersecurity developed by Ryan, Logan, Dash, Aathma, and Hannah.</p>
+            <p>Check out the</p>
+            <a href="https://github.com/nmokey/cybersecurityQuiz" target="_blank"
+                rel="noopener noreferrer">repository!</a>
+        </div>
+    </footer>
 </body>
 
 <script>document.getElementById("score").innerHTML = sessionStorage.score;</script>
