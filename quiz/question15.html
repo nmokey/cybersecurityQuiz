@@ -11,6 +11,12 @@
   <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
 </head>
 
+<style>
+  img {
+    width: 50%;
+  }
+</style>
+
 <body>
   <script src="../script.js"></script>
   <header>
@@ -26,17 +32,21 @@
       <h1>Question 15</h1>
 
       <div class="question">
-        <h2>Claim Reward</h2>
-        <p>noreply@coolmathgames.com</p>
-        <h3>Earn 1000k through a great math site!</h3>
-        <a href="coolmathgames.com/purchase">Claim Reward</a>
+        <div class="question">
+          <img src="../assets/images/image15.png">
+          <p>You have recieved this message. Is it safe to call or not?</p>
+        </div>
       </div>
-    </div>
 
-    <article class="answer">
-      <a class="right button">Safe</a>
-      <a class="wrong button" onclick="addScore()">Unsafe</a>
-    </article>
+
+      <article class="answer">
+        <a class="right button" data-explanation="Yes! It's from the official collegeboard email."
+          onclick="showExplanation(this); addScore();">Safe</a>
+        <a class="wrong button" data-explanation="Take a look at the emai. Is there anything suspicious about it?"
+          onclick="showExplanation(this)">Unsafe</a>
+      </article>
+      <div id="explanation" class="explanation-box" style="display: none;"></div>
+    </div>
 
     <div class="navigation">
       <a href="question14.html" class="previous button">&laquo; Previous</a>
