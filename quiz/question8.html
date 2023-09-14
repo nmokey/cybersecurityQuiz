@@ -33,8 +33,12 @@
     </div>
 
     <article class="answer">
-      <a class="no button">a</a>
-      <a class="yes button" onclick="addScore()">b</a>
+      <a class="no button" data-explanation="Not quite. While this password mentions nobody's name, letters and numbers are separated, allowing the word to be easily guessed." 
+        onClick= showExplanation(this)>a</a>
+      <a class="yes button" 
+        data-explanation="Great! This passwrod is not a recognizable word and has a number mixed with it. Passwords should also inclede symbols." 
+        onClick= showExplanation(this);
+        onClick = addScore();>b</a>
     </article>
 
     <div class="navigation">
