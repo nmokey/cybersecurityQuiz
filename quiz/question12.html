@@ -2,52 +2,70 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Cybersecurity Quiz</title>
-  <link rel="stylesheet" type="text/css" href="../styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
-  <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cybersecurity Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon.png">
 </head>
 
+<style>
+    img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
 <body>
-  <script src="../script.js"></script>
-  <header>
-    <a href="../index.html">Cybersecurity Quiz</a>
-    <div class="score">
-      <a>Score:</a>
-      <a id="score"></a>
-    </div>
-  </header>
+    <script src="../script.js"></script>
 
-  <main>
-    <div class="content">
-      <h1>Question 12</h1>
+    <header>
+        <a href="../index.html">Cybersecurity Quiz</a>
+        <div class="score">
+            <a>Score:</a>
+            <a id="score"></a>
+        </div>
+    </header>
 
-      <div class="question">
-        <img src="../assets/images/image12.png" >
-        <p>Should you interact with this message?</p>
-      </div>
+    <main>
+        <div class="content">
+            <h1>Question 12</h1>
 
+            <div class="question">
 
-    <article class="answer">
-      <a class="right button">Yes, it's safe</a>
-      <a class="wrong button" onclick="addScore()">No it's unsafe</a>
-    </article>
-    <div class="navigation">
-      <a href="question11.html" class="previous button">&laquo; Previous</a>
-      <a href="question13.html" class="next button">Next &raquo;</a>
-    </div>
-  </main>
+                <img src="../assets/images/image11.png">
+                <p style="text-align:center; margin-bottom: 0;">Does Derek Blake have a safe Twitter profile??</p>
 
-  <footer>
-    <div class="footertext">
-      <p>This site is a project for Cybersecurity developed by Ryan, Logan, Dash, Aathma, and Hannah.</p>
-      <p>Check out the</p>
-      <a href="https://github.com/nmokey/cybersecurityQuiz" target="_blank" rel="noopener noreferrer">repository!</a>
-    </div>
-  </footer>
+            </div>
+
+            <article class="answer">
+                <a class="right button"
+                    data-explanation= "Be careful! Is this email from @amazon.com (look closely)? Or is is from a fake Amazon account."
+                    onclick="showExplanation(this); ">Safe</a>
+                <a class="wrong button"
+                    data-explanation="Perfect! The email comes from amazonn@gmail.com, which is clearly not Amazon (there is an extra n)."
+                    onclick="showExplanation(this); addScore();">Unsafe</a>
+            </article>
+            <div id="explanation" class="explanation-box" style="display: none;"></div>
+
+            <div class="navigation">
+                <a href="question10.html" class="previous button">&laquo; Previous</a>
+                <a href="question12.html" class="next button">Next &raquo;</a>
+            </div>
+    </main>
+
+    <footer>
+        <div class="footertext">
+            <p>This site is a project for Cybersecurity developed by Ryan, Logan, Dash, Aathma, and Hannah.</p>
+            <p>Check out the</p>
+            <a href="https://github.com/nmokey/cybersecurityQuiz" target="_blank"
+                rel="noopener noreferrer">repository!</a>
+        </div>
+    </footer>
 </body>
 
 <script>document.getElementById("score").innerHTML = sessionStorage.score;</script>
